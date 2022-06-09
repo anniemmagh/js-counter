@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
 
     background: linear-gradient(to right, rgb(77, 77, 114), rgb(50, 50, 53));
@@ -11,19 +12,22 @@ body {
     height: 600px;
     box-sizing: none;
 }
-.btn  {
-    border: 3px solid  #d0bdf4;
+
+.btn {
+    border: 3px solid #d0bdf4;
     font-size: 35px;
     font-weight: strong;
     color: #ffffff;
+    box-shadow: white;
 }
+
 .btn:hover {
-   
+
     background: transparent;
     color: rgb(179, 237, 237);
-    
+
     box-shadow: 0 0 5px #d0bdf4,
-                0 0 25px #d0bdf4,
-                0 0 50px #d0bdf4,
-                0 0 100px #d0bdf4;
+        0 0 25px #d0bdf4,
+        0 0 50px #d0bdf4,
+        0 0 100px #d0bdf4;
 }
