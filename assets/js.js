@@ -15,4 +15,4 @@ button.addEventListener("click", test = () => {
             }
         }, 1000)
     }
-})
+});
